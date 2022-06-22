@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+
+.menu-cat{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}

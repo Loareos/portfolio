@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Gotham";
+    src: local(font\GothamMedium.ttf) format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Gotham';
+    
+}
+
+h2{
+    letter-spacing: 0.4rem;
+    font-size: 45px;
+}
+
+main>div>h2{
+    margin-bottom: 2rem;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.part{
+    margin-top: 4rem;
+}
+
+.part>h2{
+    text-align: center;
+}
+
+main{
+    margin-top: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* FOOTER */
+
+footer>div{
+    text-align: center;
+    padding-bottom: 2em;
+}

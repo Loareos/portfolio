@@ -1,0 +1,157 @@
+/* TITRE */
+
+.main-title{
+    text-align: center;
+}
+
+.main-title>h1{
+    letter-spacing: 1rem;
+    font-size: 60px;
+}
+
+/* QUI JE SUIS */
+
+.pres-content{
+    display: flex;
+    align-items: center;
+    max-width: 50rem;
+    margin: auto;
+}
+
+/* CE QUE JE FAIS */
+
+.work-line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.work-line>div>a>h4{
+    margin-top: 1rem;
+}
+
+.work-cat{
+    text-align: center;
+}
+
+/* MON PARCOURS */
+
+.years{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bot-year{
+    position: relative;
+    top: 100px;
+    transition: 0.5s;
+}
+
+.test:hover .bot-year{
+    top: 0px;
+}
+
+.dot{
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 1s;
+    
+}
+
+.test:hover .dot{
+    height: 50px; 
+    width: 50px;
+}
+
+.year{
+    text-align: center;
+}
+
+.year>h4{
+    margin-top: 1rem;
+}
+
+.year-desc{
+    width: 0;
+    height: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: 1s;
+}
+
+.test{
+    display: flex;
+}
+
+.test:hover .year-desc{
+    visibility: visible;
+    width: 100%;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.top-year{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.test:hover .line{
+    height: 100px;
+    transform: translateY(0px);
+}
+
+.line{
+    width: 2px;
+    height: 0px;
+    background-color: aliceblue;
+    transition-delay: 0.5s;
+    transition: 0.5s;
+    transform: translateY(100px); 
+}
+/*
+@keyframes description{
+    0%{
+        visibility: hidden;
+        width: 0%;
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    1%{
+        width: 100%;
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+*/
+/* CONTACT */
+
+.main-contact{
+    padding-bottom: 3em;
+}
+
+.line-contact{
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content>div{
+    border: 2px solid aliceblue;
+    padding: 2em;
+}
+
