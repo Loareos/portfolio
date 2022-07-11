@@ -3,7 +3,28 @@ h1{
 }
 
 .menu-cat{
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    height: 70vh;
+    margin: 3em;
 }
+
+.menu-cat>div{
+    border: solid 3px #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3:hover{
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+#karn{background-image: url(pic-css/bgKarn.png);}
+#obso{background-image: url(pic-css/bgObso2.png);}
+#o{background-image: url(pic-css/bgo.png);}
+#stunball{background-image: url(pic-css/bgStunball.png);}
