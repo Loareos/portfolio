@@ -1,16 +1,24 @@
+i{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 h1{
     text-align: center;
 }
 
 .menu-cat{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    height: 70vh;
-    margin: 3em;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    gap: 1em;
 }
 
 .menu-cat>div{
-    border: solid 3px #000;
+    width: 20vw;
+    height: 70vh;
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,7 +32,19 @@ h3:hover{
     transition: 0.5s;
 }
 
+
 #karn{background-image: url(pic-css/bgKarn.png);}
 #obso{background-image: url(pic-css/bgObso2.png);}
 #o{background-image: url(pic-css/bgo.png);}
 #stunball{background-image: url(pic-css/bgStunball.png);}
+
+@media screen and (max-width: 812px) {
+    .menu-cat{
+        flex-direction: column;
+    }
+
+    .menu-cat>div{
+        height: 15vh;
+        width: 100%;
+    }
+}

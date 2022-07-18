@@ -39,6 +39,11 @@ a{
     color: aliceblue;
 }
 
+a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
 /* FOOTER */
 
 footer>div{
