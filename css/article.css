@@ -1,0 +1,29 @@
+i{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.encart{
+    border: 2px solid aliceblue;
+    margin: 3em;
+}
+
+table, td{
+    border: 1px solid aliceblue;
+}
+
+td{
+    padding: 1em;
+}
+
+table{
+    margin: auto;
+    width: 70vw;
+    margin-top: 3em;
+}
+

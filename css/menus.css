@@ -19,6 +19,7 @@ h1{
     width: 20vw;
     height: 70vh;
 
+    text-align: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +28,7 @@ h1{
     align-items: center;
 }
 
-h3:hover{
+.menu-cat>div:hover h3{
     font-size: 40px;
     transition: 0.5s;
 }
@@ -37,6 +38,12 @@ h3:hover{
 #obso{background-image: url(pic-css/bgObso2.png);}
 #o{background-image: url(pic-css/bgo.png);}
 #stunball{background-image: url(pic-css/bgStunball.png);}
+
+#ebay-like{background-image: url(pic-css/bgEncheres.png);}
+#sortir{background-image: url(pic-css/bgSortir.png);}
+#sowrs{background-image: url(pic-css/bgSowrs.png);}
+#own{border: 1px solid aliceblue;}
+
 
 @media screen and (max-width: 812px) {
     .menu-cat{
