@@ -8,11 +8,6 @@ h1{
     text-align: center;
 }
 
-.encart{
-    border: 2px solid aliceblue;
-    margin: 3em;
-}
-
 table, td{
     border: 1px solid aliceblue;
 }
@@ -27,3 +22,46 @@ table{
     margin-top: 3em;
 }
 
+.smart{
+    display: none;
+}
+
+.views{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.section{
+    margin: auto;
+    text-align: center;
+}
+
+.section>h6{
+    padding-top: 1rem;
+}
+
+img{
+    max-width: 90vw;
+}
+
+@media screen and (max-width: 812px) {
+
+    .smart{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .smart>div{
+        border: 1px solid aliceblue;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    table{
+        display: none;
+    }
+}
