@@ -4,6 +4,10 @@ i{
     left: 20px;
 }
 
+.title-img{
+    text-align: center;
+}
+
 h1{
     text-align: center;
 }
@@ -47,6 +51,21 @@ img{
     max-width: 90vw;
 }
 
+.video-responsive { 
+    overflow:hidden; 
+    padding-bottom:56.25%; 
+    position:relative; 
+    height:0;
+}
+
+.video-responsive iframe {
+    left:5%; 
+    top:3em; 
+    height:90%;
+    width:90%;
+    position:absolute;
+}
+
 @media screen and (max-width: 812px) {
 
     .smart{
@@ -63,5 +82,9 @@ img{
 
     table{
         display: none;
+    }
+
+    i{
+        margin-bottom: 1em;
     }
 }

@@ -54,4 +54,8 @@ h1{
         height: 15vh;
         width: 100%;
     }
+
+    i{
+        margin-bottom: 1em;
+    }
 }

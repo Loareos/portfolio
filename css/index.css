@@ -137,6 +137,7 @@
 }
 
 .contact-content>div{
+    margin: 2px;
     border: 2px solid aliceblue;
     padding: 2em;
 }
