@@ -5,6 +5,7 @@ i{
 }
 
 h1{
+    margin-top: 1em;
     text-align: center;
 }
 
@@ -57,5 +58,9 @@ h1{
 
     i{
         margin-bottom: 1em;
+    }
+
+    h1{
+        margin-top: 3em;
     }
 }

@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+h2{
+    letter-spacing: 0.4rem;
+    font-size: 45px;
+}
+
+body{
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+}
+
+a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
 .scroller{
     overflow: scroll;
     scroll-behavior: smooth;
 }
-
 
 .part{
     min-height: 100vh;
@@ -10,11 +31,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-} 
+    gap: 3em;
+}
 
 .title{
     text-align: center;
 }
+
 
 /* =============== presentation =============== */
 
@@ -79,7 +102,6 @@
     .txt-smart{
         text-align: center;
         max-width: 90vw;
-        margin-top: 3em;
     }
 
 }
@@ -110,7 +132,9 @@
 }
 
 
-/* CE QUE JE FAIS */
+/* ========================================== */
+
+
 
 .work-line{
     margin-top: 5em;
@@ -128,7 +152,7 @@
     text-align: center;
 }
 
-/* MON PARCOURS */
+/* ========================================== */
 
 .years{
     display: flex;
@@ -236,9 +260,11 @@
 }
 
 
+
+
 @media screen and (max-width: 812px) {
 
-    /* CE QUE JE FAIS */
+        /* CE QUE JE FAIS */
 
     .work-line{
         flex-direction: column;
@@ -274,6 +300,7 @@
         opacity: 1;
         transform: translateX(0px);
     }
+
 
     /* CONTACT */
 
