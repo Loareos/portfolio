@@ -43,7 +43,9 @@ h1{
 #ebay-like{background-image: url(pic-css/bgEncheres.png);}
 #sortir{background-image: url(pic-css/bgSortir.png);}
 #sowrs{background-image: url(pic-css/bgSowrs.png);}
-#own{border: 1px solid aliceblue;}
+#own{background-image: url(pic-css/bgEtienne.png);}
+
+#cover{background-image: url(pic-css/bgbr.png);}
 
 
 @media screen and (max-width: 812px) {

@@ -4,11 +4,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Raleway', sans-serif;
     
 }
-/*
-body{
-    margin-bottom: 3em;
-}
-*/
+
 h2{
     letter-spacing: 0.4rem;
     font-size: 45px;
@@ -22,19 +18,11 @@ body{
     background-color: #1a1a1a;
     color: #f2f2f2;
 }
-/*
-.part{
-    margin-top: 4rem;
-}
-*/
+
 .part>h2{
     text-align: center;
 }
-/*
-main{
-    margin-top: 4rem;
-}
-*/
+
 a{
     text-decoration: none;
     color: #f2f2f2;
