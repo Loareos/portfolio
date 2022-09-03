@@ -46,6 +46,7 @@ h1{
 #own{background-image: url(pic-css/bgEtienne.png);}
 
 #cover{background-image: url(pic-css/bgbr.png);}
+#photos{background-image: url(pic-css/bgPhotos.png);}
 
 
 @media screen and (max-width: 812px) {
