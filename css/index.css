@@ -1,5 +1,5 @@
 .scroller{
-    overflow: scroll;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 

@@ -47,6 +47,8 @@ h1{
 
 #cover{background-image: url(pic-css/bgbr.png);}
 #photos{background-image: url(pic-css/bgPhotos.png);}
+#dessinsAm{background-image: url(pic-css/bgDessinsAm.png);}
+#inktober{background-image: url(pic-css/bgInktober.png);}
 
 
 @media screen and (max-width: 812px) {
