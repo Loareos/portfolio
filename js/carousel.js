@@ -17,14 +17,8 @@ document.querySelectorAll(".carousel").forEach(carousel => {
 
 	const btns = carousel.querySelectorAll(".carousel_btn");
 
-//	console.log(items.length);
-
 	right.addEventListener("click", () => {
-		if(i == items.length-1){
-			i=0;
-		}else{
-			i++;
-		}
+		i = i == items.length-1 ? 0 : i+1;
 		items.forEach(item => item.classList.remove("carousel_item-selected"));
 		btns.forEach(btn => btn.classList.remove("carousel_btn-selected"));
 		items[i].classList.add("carousel_item-selected");
@@ -32,11 +26,7 @@ document.querySelectorAll(".carousel").forEach(carousel => {
 	});
 
 	left.addEventListener("click", () => {
-		if(i == 0){
-			i=items.length-1;
-		}else{
-			i--;
-		}
+		i = i == 0 ? items.length-1 : i-1; 
 		items.forEach(item => item.classList.remove("carousel_item-selected"));
 		btns.forEach(btn => btn.classList.remove("carousel_btn-selected"));
 		items[i].classList.add("carousel_item-selected");
