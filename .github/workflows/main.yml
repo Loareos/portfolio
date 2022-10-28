@@ -1,0 +1,11 @@
+on: push
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        env:
+          USER: ${{ secrets.USER }}
+          PASS: ${{ secrets.PASS }}
+        run: |
+          curl "https://smsapi.free-mobile.fr/sendmsg?user=$USER&pass=$PASS&msg=Push:Portofolio"
