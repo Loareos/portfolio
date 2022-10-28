@@ -8,4 +8,4 @@ jobs:
           USER: ${{ secrets.USER }}
           PASS: ${{ secrets.PASS }}
         run: |
-          curl "https://smsapi.free-mobile.fr/sendmsg?user=$USER&pass=$PASS&msg=Push:Portofolio"
+          curl "https://smsapi.free-mobile.fr/sendmsg?user=$USER&pass=$PASS&msg=Portofolio: ${{ github.event.commits[0].message }}"
